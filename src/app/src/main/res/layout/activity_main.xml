@@ -6,13 +6,97 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <TextView
+        android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="FLIGHT IN"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.19999999" />
+
+    <TextView
+        android:id="@+id/daysView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="30"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView9"
+        app:layout_constraintStart_toStartOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="days"
+        app:layout_constraintEnd_toEndOf="@+id/daysView"
+        app:layout_constraintStart_toStartOf="@+id/daysView"
+        app:layout_constraintTop_toBottomOf="@+id/daysView" />
+
+    <TextView
+        android:id="@+id/hoursView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="4"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hours"
+        app:layout_constraintEnd_toEndOf="@+id/hoursView"
+        app:layout_constraintStart_toStartOf="@+id/hoursView"
+        app:layout_constraintTop_toBottomOf="@+id/hoursView" />
+
+    <TextView
+        android:id="@+id/minutesView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="7"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="minutes"
+        app:layout_constraintEnd_toEndOf="@+id/minutesView"
+        app:layout_constraintStart_toStartOf="@+id/minutesView"
+        app:layout_constraintTop_toBottomOf="@+id/minutesView" />
+
+    <TextView
+        android:id="@+id/secondsView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="17"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView6"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="seconds"
+        app:layout_constraintEnd_toEndOf="@+id/secondsView"
+        app:layout_constraintStart_toStartOf="@+id/secondsView"
+        app:layout_constraintTop_toBottomOf="@+id/secondsView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
