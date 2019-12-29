@@ -3,4 +3,12 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="background_day_0">#CFD3DC</color>
+    <color name="background_day_1">#A9B9D9</color>
+    <color name="background_day_2">#6698D9</color>
+    <color name="background_day_3">#04D924</color>
+    <color name="background_day_4">#04BF20</color>
+    <color name="background_day_5">#F20505</color>
+    <color name="background_day_6">#29363F</color>
+    <color name="background_day_7">#F2F204</color>
 </resources>
