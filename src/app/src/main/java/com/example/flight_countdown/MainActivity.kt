@@ -59,20 +59,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun setBackColor(daysDiff: Int) {
         if(daysDiff != 0) {
-            var backColor =
-                when (daysDiff % totalColors) {
-                    0 -> R.color.background_day_0
-                    1 -> R.color.background_day_1
-                    2 -> R.color.background_day_2
-                    3 -> R.color.background_day_3
-                    4 -> R.color.background_day_4
-                    5 -> R.color.background_day_5
-                    6 -> R.color.background_day_6
-                    7 -> R.color.background_day_7
-                    else -> 0
-                }
+            val resColor = Logics.GetBackgroundColorByDaysDiff(daysDiff)
 
-            rootLayout.setBackgroundColor(getColor(backColor))
+            rootLayout.setBackgroundColor(getColor(resColor))
         }
     }
 
